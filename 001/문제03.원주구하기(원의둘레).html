@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2> 원주 :원의 둘레  : 지름 (반지름*2) * 원주율 </h2>
+    <h2> 원의 넓이 :   반지름(세로) *  반지름*원주율 (  가로  )  => 원주율*반지름^2</h2>
+
+    <script>
+
+        /*
+       
+        원주구하기 )   지름을 입력받아 원주(원의 둘레) 구하기 
+        원주율:3.14   
+
+        입력 : 지름
+        출력 : 원주 
+
+        처리과정:
+
+        */
+
+        let diameter = prompt("지름을 입력하세요");
+        
+        diameter = parseFloat(diameter);
+        
+        if (isNaN(diameter)) {
+             alert("숫자를 입력하세요!!!");
+            } else {
+                
+                const pi = 3.14;
+                let circumference = diameter * pi;
+                
+                alert("원의 둘레는 " + circumference);
+            }
+
+            /* 처리과정 :
+            사용자에게 지름을 입력받고 입력된 값을 parseFloat로 숫자로 변환한다
+            변환된 값이 숫자인지 확인하고, 숫자가 아니면 경고 메시지를 표시한다
+            지름에 pi(3.14)를 곱하여 원의 둘레를 계산하고 계산된 원의 둘레를 사용자에게 팝업창으로 출력한다.
+            */
+    </script>
+    
+</body>
+</html>

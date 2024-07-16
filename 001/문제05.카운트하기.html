@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2> count 하기 </h2>
+    <h2> count 변수의 값을 1 증가 시키기 , 10번 수행하기</h2>
+
+    <script>
+
+      // count=1
+      // count=2
+      // count=3
+      // count=4
+      // count=5
+      // count=6
+      // count=7
+      // count=8
+      // count=9
+      // count=10
+      // 위와 같이 출력될 수 있도록 코드를 작성하시오
+
+        let count = 0;
+        for (let i = 1; i <= 10; i++) {
+            count = i;
+            document.write("count=" + count + "<br>");
+        }
+
+        /* 
+        처리과정 : 
+        count 변수를 0으로 초기화하고 for 반복문을 사용하여 1부터 10까지 i를 증가시키면서 반복한다
+        (let i = 1: 반복문이 시작될 때 i를 1로 초기화
+        i <= 10: i가 10보다 작거나 같은 동안 반복문을 실행
+        i++: 각 반복이 끝날 때마다 i를 1씩 증가)
+        count에 i를 할당시킨 후 count 값을 HTML 문서에 count=1, count=2, ..., count=10로 각각 한 줄씩 출력시킨다
+        */
+    </script>
+    
+</body>
+</html>
