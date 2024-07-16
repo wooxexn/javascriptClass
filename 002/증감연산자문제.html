@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h2> a, b, result, result2의 값을 예상해 보자</h2>
+
+  <script>
+    
+    let a=10, b=10;
+    let result1, result2;
+
+    a++
+    result1 = a++ + ++b;
+    b++;
+    result2 = b++ + ++a;
+
+    alert(result1);
+    alert(result2);
+
+  </script>
+</body>
+</html>
