@@ -3,41 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>꽃게 스파게티 레시피</title>
+    <title>맛있는 게 스파게티 레시피</title>
+    <style>
+        /* 전체 페이지 스타일 설정 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        /* 컨테이너 스타일 설정 */
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px;
+        }
+        /* 제목 스타일 설정 */
+        h1 {
+            color: #e74c3c;
+        }
+        /* 이미지 스타일 설정 */
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        /* 문단 스타일 설정 */
+        p {
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-    <script>
-        function 꽃게스파게티(스파게티, 물, 소금, 꽃게, 양파, 마늘, 방울토마토, 올리브유, 화이트와인, 토마토소스, 우유, 생크림, 면수, 파마산치즈가루, 후추) {
-            alert("끓는 물" + 물 + "에 " + 소금 + "을 조금 넣은 후, " + 스파게티 + "면을 넣고 약 6분 동안 끓입니다.");
-            alert("꽃게의 껍질을 벗기고, 등딱지를 제거한 후 반으로 자르고 아가미를 제거합니다.");
-            alert(양파 + "를 다지고, " + 마늘 + "을 얇게 썰고, " + 방울토마토 + "를 반으로 자릅니다.");
-            alert("팬에 " + 올리브유 + "을 넣고 마늘을 볶은 후 양파를 넣습니다.");
-            alert("손질한 꽃게를 볶은 후 " + 화이트와인 + "을 넣고 볶습니다.");
-            alert(토마토소스 + ", 우유" + 우유 + ", 생크림" + 생크림 + ", 면수" + 면수 + "를 넣고 끓입니다.");
-            alert("삶은 스파게티 면, " + 파마산치즈가루 + ", 방울토마토를 소스에 섞은 후, " +후추+ "를 넣고 섞으면 꽃게스파게티 완성");
+    <!-- 레시피 컨테이너 -->
+    <div class="container">
+        <h1>게 스파게티 레시피</h1>
+        <p>이 레시피를 따라 맛있는 게 스파게티를 만들어 보세요. 특별한 저녁 식사에 딱 좋습니다!</p>
+        <script>
+            // 게 스파게티 레시피를 구현하는 함수
+            function CrabSpaghetti(spaghetti, water, salt, crab, onion, garlic, cherryTomatoes, oliveOil, whiteWine, tomatoSauce, milk, freshCream, noodles, parmesanCheese, pepper) {
+                alert("끊는 " + water + "에 " + salt + "과 " + spaghetti + "면을 넣고 약 6분간 삶아주세요.");
+                alert(crab + "를 껍질을 벗기고 반으로 자른 다음 아가미를 제거하세요.");
+                alert(onion + "를 다지고, " + garlic + "을 얇게 썰고, " + cherryTomatoes + "를 반으로 자르세요.");
+                alert("팬에 " + oliveOil + "을 넣고 마늘을 볶은 후 양파를 넣으세요.");
+                alert(crab + "를 넣고 볶다가 " + whiteWine + "을 넣고 더 볶으세요.");
+                alert(tomatoSauce + ", " + milk + ", " + freshCream + ", " + noodles + "을 넣고 끓이세요.");
+                alert("삶은 스파게티 면과 " + parmesanCheese + ", " + cherryTomatoes + "를 소스에 섞은 후 " + pepper + "를 넣고 섞어 완성하세요.");
 
-            return "https://files.oaiusercontent.com/file-DYuRBM8RXE96D7KGU5dXWQNR?se=2024-07-16T07%3A19%3A59Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dae85f4b9-baff-4c2e-8ee5-d9d40c285739.webp&sig=7%2BPf3zJAiPdBFQwzWyZcHo7SwEUzjrLBJxycfkJH0Zo%3D";
-        }
+                // 결과 이미지 URL 반환
+                return "https://files.oaiusercontent.com/file-DYuRBM8RXE96D7KGU5dXWQNR?se=2024-07-16T07%3A19%3A59Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dae85f4b9-baff-4c2e-8ee5-d9d40c285739.webp&sig=7%2BPf3zJAiPdBFQwzWyZcHo7SwEUzjrLBJxycfkJH0Zo%3D";
+            }
 
-        let 스파게티 = "100g의 스파게티";
-        let 물 = "(7½컵/1.5L)";
-        let 소금 = "약간의 소금";
-        let 꽃게 = "1마리의 꽃게";
-        let 양파 = "10g의 양파";
-        let 마늘 = "마늘 5쪽";
-        let 방울토마토 = "방울토마토 3개";
-        let 올리브유 = "올리브유 2큰술";
-        let 화이트와인 = "화이트와인 2큰술";
-        let 토마토소스 = "토마토소스 3큰술";
-        let 우유 = "(½컵/100ml)";
-        let 생크림 = "(½컵/100ml)";
-        let 면수 = "(¼컵/50ml)";
-        let 파마산치즈가루 = "파마산치즈가루 1큰술";
-        let 후추 = "약간의 후추";
+            // 레시피에 사용될 재료 변수 설정
+            let spaghetti = "100g의 스파게티";
+            let water = "물(7½컵/1.5L)";
+            let salt = "약간의 소금";
+            let crab = "1마리의 게";
+            let onion = "10g의 양파";
+            let garlic = "마늘 5쪽";
+            let cherryTomatoes = "방울토마토 3개";
+            let oliveOil = "올리브유 2큰술";
+            let whiteWine = "화이트 와인 2큰술";
+            let tomatoSauce = "토마토 소스 3큰술";
+            let milk = "우유(½컵/100ml)";
+            let freshCream = "생크림(½컵/100ml)";
+            let noodles = "면수(¼컵/50ml)";
+            let parmesanCheese = "파마산 치즈가루 1큰술";
+            let pepper = "약간의 후추";
 
-        let result = 꽃게스파게티(스파게티, 물, 소금, 꽃게, 양파, 마늘, 방울토마토, 올리브유, 화이트와인, 토마토소스, 
-        우유, 생크림, 면수, 파마산치즈가루, 후추);
-        document.write("<img src='" + result + "' alt='꽃게 스파게티'>");
-    </script>
+            // CrabSpaghetti 함수 호출하여 결과 이미지 URL 얻기
+            let result = CrabSpaghetti(spaghetti, water, salt, crab, onion, garlic, cherryTomatoes, oliveOil, whiteWine, tomatoSauce, milk, freshCream, noodles, parmesanCheese, pepper);
+            
+            // 결과 이미지 웹 페이지에 표시
+            document.write("<img src='" + result + "' alt='게 스파게티'>");
+        </script>
+    </div>
 </body>
 </html>
