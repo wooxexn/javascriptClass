@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box; /* 패딩과 테두리를 요소의 전체 크기로 포함 */
+      }
+
+      .wrap {
+        display: flex;
+        flex-direction: column;  
+      }
+
+      header {
+        background-color: antiquewhite;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* 좌우 정렬 추가 */
+        padding: 0 30px;
+      }
+
+      header .img {
+        background-image: url(images/logo.png);
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-size: cover;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        padding-right: 30px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: darkred; /* 호버 색상 변경 */
+      }
+
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f9f9f9;
+        padding: 20px;
+      }
+
+      section ul {
+        width: 900px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* 좌우 정렬 추가 */
+      }
+
+      section ul li {
+        width: 280px;
+        height: 300px;
+        border: 0.5px solid rgb(233, 220, 220);
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px; /* 아래 여백 추가 */
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+      }
+
+      section ul li img {
+        max-width: 100%;
+      }
+
+      footer {
+        background-color: #333;
+        padding: 20px 30px;
+        color: white;
+      }
+
+      footer > div {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="img"></div>
+        <nav>
+          <ul>
+            <li><a href="#">COFFEE</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">RESPONSIBILITY</a></li>
+            <li><a href="#">REWORDS</a></li>
+            <li><a href="#">SALES</a></li>
+            <li><a href="#">WHAT'S NEWS</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <ul>
+          <li>
+            <img src="./images/아메리카노.png" />
+            <p>아이스 아메리카노</p>
+          </li>
+
+          <li>
+            <img src="./images/아메리카노.png" />
+            <p>아이스 아메리카노</p>
+          </li>
+
+          <li>
+            <img src="./images/아메리카노.png" />
+            <p>아이스 아메리카노</p>
+          </li>
+
+          <li>
+            <img src="./images/아메리카노.png" />
+            <p>아이스 아메리카노</p>
+          </li>
+
+          <li>
+            <img src="./images/아메리카노.png" />
+            <p>아이스 아메리카노</p>
+          </li>
+
+          <li>
+            <img src="./images/아메리카노.png" />
+            <p>아이스 아메리카노</p>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <div>ⓒ 2024 Coffee Company. All Rights Reserved.</div>
+      </footer>
+    </div>
+  </body>
+</html>
